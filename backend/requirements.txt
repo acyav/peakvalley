@@ -1,0 +1,26 @@
+# PeakValley Backend Dependencies
+# Compatible with Python 3.8
+
+# Web Framework
+fastapi>=0.100.0,<1.0
+uvicorn[standard]>=0.20.0,<1.0
+python-multipart>=0.0.5
+
+# Supabase
+supabase>=2.0.0,<3.0
+
+# OpenAI SDK (兼容客户端)
+openai>=1.0.0,<2.0
+
+# Redis (Upstash REST)
+httpx>=0.24.0
+
+# Auth & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Data Validation
+pydantic[email]>=2.0.0,<3.0
+
+# Config
+python-dotenv>=1.0.0
