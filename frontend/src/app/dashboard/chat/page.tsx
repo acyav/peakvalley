@@ -34,7 +34,7 @@ export default function ChatPage() {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [model, setModel] = useState("glm-4");
-  const [lastBilling, setLastBilling] = useState<DisplayMessage["billing"]>(null);
+  const [lastBilling, setLastBilling] = useState<DisplayMessage["billing"] | null>(null);
   const [errorMsg, setErrorMsg] = useState("");
   const scrollRef = useRef<HTMLDivElement>(null);
 

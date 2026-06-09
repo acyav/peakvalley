@@ -562,14 +562,14 @@ export default function OrgPage() {
               <p className="text-2xl font-bold text-violet-400">
                 {usage ? usage.total_tokens.toLocaleString() : "0"}
               </p>
-              <p className="text-xs text-gray-500 mt-1">{usage?.period || "近30天"}</p>
+              <p className="text-xs text-gray-500 mt-1">近30天</p>
             </div>
             <div className="pv-card p-5">
               <p className="text-sm text-gray-400 mb-1">总费用</p>
               <p className="text-2xl font-bold text-amber-400">
                 ¥{usage ? usage.total_cost.toFixed(2) : "0.00"}
               </p>
-              <p className="text-xs text-gray-500 mt-1">{usage?.period || "近30天"}</p>
+              <p className="text-xs text-gray-500 mt-1">近30天</p>
             </div>
             <div className="pv-card p-5">
               <p className="text-sm text-gray-400 mb-1">人均费用</p>
